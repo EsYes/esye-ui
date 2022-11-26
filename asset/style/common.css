@@ -14,9 +14,3 @@ ul, ol{
 *:focus{
     outline: none;
 }
-
-*::before,
-*::after{
-    display: block;
-    content: '';
-}
