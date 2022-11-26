@@ -5,3 +5,6 @@
 
 /* Color library. */
 @import "color.css";
+
+/* Clear default style. */
+@import "clear.css";
