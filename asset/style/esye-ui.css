@@ -8,3 +8,6 @@
 
 /* Clear default style. */
 @import "clear.css";
+
+/* Common. */
+@import "common.css";
