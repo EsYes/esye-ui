@@ -1,0 +1,77 @@
+/*
+ * Esye-UI
+ * grid.
+ */
+
+.ui.row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.ui.row .ui.col1,
+.ui.row .ui.col2,
+.ui.row .ui.col3,
+.ui.row .ui.col4,
+.ui.row .ui.col5,
+.ui.row .ui.col6,
+.ui.row .ui.col7,
+.ui.row .ui.col8,
+.ui.row .ui.col9,
+.ui.row .ui.col10,
+.ui.row .ui.col11,
+.ui.row .ui.col12{
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+    justify-items: start;
+}
+
+.ui.row .ui.col1{
+    grid-column: span 1 / auto;
+}
+
+.ui.row .ui.col2{
+    grid-column: span 2 / auto;
+}
+
+.ui.row .ui.col3{
+    grid-column: span 3 / auto;
+}
+
+.ui.row .ui.col4{
+    grid-column: span 4 / auto;
+}
+
+.ui.row .ui.col5{
+    grid-column: span 5 / auto;
+}
+
+.ui.row .ui.col6{
+    grid-column: span 6 / auto;
+}
+
+.ui.row .ui.col7{
+    grid-column: span 7 / auto;
+}
+
+.ui.row .ui.col8{
+    grid-column: span 8 / auto;
+}
+
+.ui.row .ui.col9{
+    grid-column: span 9 / auto;
+}
+
+.ui.row .ui.col10{
+    grid-column: span 10 / auto;
+}
+
+.ui.row .ui.col11{
+    grid-column: span 11 / auto;
+}
+
+.ui.row .ui.col12{
+    grid-column: span 12 / auto;
+}
