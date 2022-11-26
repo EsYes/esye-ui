@@ -3,6 +3,46 @@
  * grid.
  */
 
+.ui.inline{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ui.inline.horizontal__center{
+    justify-content: center;
+}
+
+.ui.inline.horizontal__flex-end{
+    justify-content: flex-end;
+}
+
+.ui.inline.horizontal__space-between{
+    justify-content: space-between;
+}
+
+.ui.inline.horizontal__space-around{
+    justify-content: space-around;
+}
+
+.ui.inline.horizontal__space-evenly{
+    justify-content: space-evenly;
+}
+
+.ui.inline.vertical__flex-start{
+    align-items: flex-start;
+}
+
+.ui.inline.vertical__flex-end{
+    align-items: flex-end;
+}
+
+.ui.inline.vertical__stretch{
+    align-items: stretch;
+}
+
 .ui.row{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
