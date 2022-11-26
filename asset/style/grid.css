@@ -6,7 +6,7 @@
 .ui.row{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    grid-gap: 1.5rem;
     width: 100%;
 }
 
@@ -24,7 +24,7 @@
 .ui.row .ui.col12{
     display: grid;
     grid-auto-rows: min-content;
-    grid-gap: 20px;
+    grid-gap: 1.5rem;
     justify-items: start;
 }
 
