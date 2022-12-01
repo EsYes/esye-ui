@@ -1,0 +1,32 @@
+/*
+ * Esye-UI
+ * menu.
+ */
+
+.ui.menu{
+    width: 100%;
+    border-radius: 0.25em;
+    border:1px solid var(--gray);
+}
+
+.ui.menu-item{
+    padding: 0.75em 1.5em;
+    color:var(--darkGray);
+    border-bottom:1px solid var(--lightGray);
+}
+
+.ui.menu-item:last-child{
+    border-bottom: none;
+}
+
+.ui.menu-item.active,
+.ui.menu-item:focus,
+.ui.menu-item:hover{
+    background: var(--lightGray);
+    cursor: pointer;
+    color:var(--black);
+}
+
+.ui.menu-item a{
+    color: inherit;
+}

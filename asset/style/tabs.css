@@ -1,0 +1,37 @@
+/*
+ * Esye-UI
+ * tabs.
+ */
+
+.ui.tabs{
+    width: 100%;
+}
+
+.ui.tabs-header{
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+}
+
+.ui.tab{
+    padding: 0.75em 1.5em;
+    border-radius: 0.25em 0.25em 0 0;
+    color: var(--darkGray);
+    font-weight: 600;
+    margin-bottom: -1px;
+}
+
+.ui.tab.compact{
+    padding: 0.55em 0.75em;
+}
+
+.ui.tab.active{
+    background: white;
+    border: 1px solid var(--gray);
+    border-bottom: none;
+    color:var(--black);
+}
+
+.ui.tab:hover,
+.ui.tab:focus{
+    color:var(--black);
+}

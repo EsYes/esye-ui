@@ -3,10 +3,18 @@
  * grid.
  */
 
+.ui.grid-container{
+    width: 100%;
+    padding: 1.5rem;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-auto-rows: min-content;
+}
+
 .ui.inline{
     display: flex;
     flex-wrap: wrap;
-    gap:1rem;
+    gap:inherit;
     justify-content: flex-start;
     align-items: center;
 }
