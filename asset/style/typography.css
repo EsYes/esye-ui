@@ -1,0 +1,18 @@
+/*
+ * Esye-UI
+ * typography.
+ */
+
+@import "../font/montserrat/montserrat.css";
+
+
+html{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color:var(--black);
+}
+
+h1,h2,h3,
+h4,h5,h6{
+    font-weight: 500;
+}

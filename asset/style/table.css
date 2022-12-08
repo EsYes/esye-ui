@@ -1,0 +1,41 @@
+/*
+ * Esye-UI
+ * table.
+ */
+
+.ui.table{
+    width: 100%;
+    border:1px solid var(--gray);
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.ui.table caption{
+    padding: 10px;
+}
+
+.ui.table th,
+.ui.table td{
+    border:1px solid var(--gray);
+    padding: 10px;
+}
+
+.ui.table.compact caption{
+    padding: 5px;
+}
+
+.ui.table.compact th,
+.ui.table.compact td{
+    border:1px solid var(--gray);
+    padding: 5px;
+}
+
+.ui.table.big caption{
+    padding: 15px;
+}
+
+.ui.table.big th,
+.ui.table.big td{
+    border:1px solid var(--gray);
+    padding: 15px;
+}

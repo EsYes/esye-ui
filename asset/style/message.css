@@ -1,0 +1,30 @@
+/*
+ * Esye-UI
+ * message.
+ */
+
+.ui.message{
+    background: #F8F8F9;
+    border:1px solid #C9CACA;
+    border-radius: 0.25em;
+    color:#5F346D;
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px 15px;
+}
+
+.ui.message h4{
+    font-size: 1.05em;
+}
+
+.ui.message.red{
+    background: #FFFAF3;
+    border-color: #C9BA9B;
+    color:#794B02;
+}
+
+.ui.message.darkblue{
+    background: #F8FFFF;
+    border-color: #A9D5DE;
+    color:#0E566C;
+}

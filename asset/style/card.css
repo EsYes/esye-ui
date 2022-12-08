@@ -1,0 +1,26 @@
+/*
+ * Esye-UI
+ * card.
+ */
+
+.ui.card{
+    width: 100%;
+    display: grid;
+    grid-gap: 0.5em;
+    overflow: hidden;
+    border-radius: 0.25em;
+    border:1px solid var(--gray);
+}
+
+.ui.card > .card-content{
+    width: 100%;
+    display: grid;
+    grid-gap: inherit;
+    padding: 1em;
+    justify-items: flex-start;
+}
+
+.ui.card > img{
+    display: block;
+    width: 100%;
+}

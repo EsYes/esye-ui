@@ -1,0 +1,134 @@
+/*
+ * Esye-UI
+ * grid.
+ */
+
+.ui.grid-container{
+    width: 100%;
+    padding: 1.5rem;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-auto-rows: min-content;
+}
+
+.ui.inline{
+    display: flex;
+    flex-wrap: wrap;
+    gap:inherit;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ui.inline.horizontal__center{
+    justify-content: center;
+}
+
+.ui.inline.horizontal__flex-end{
+    justify-content: flex-end;
+}
+
+.ui.inline.horizontal__space-between{
+    justify-content: space-between;
+}
+
+.ui.inline.horizontal__space-around{
+    justify-content: space-around;
+}
+
+.ui.inline.horizontal__space-evenly{
+    justify-content: space-evenly;
+}
+
+.ui.inline.vertical__flex-start{
+    align-items: flex-start;
+}
+
+.ui.inline.vertical__flex-end{
+    align-items: flex-end;
+}
+
+.ui.inline.vertical__stretch{
+    align-items: stretch;
+}
+
+.ui.row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1.5rem;
+    width: 100%;
+}
+
+.ui.row > .ui.col1,
+.ui.row > .ui.col2,
+.ui.row > .ui.col3,
+.ui.row > .ui.col4,
+.ui.row > .ui.col5,
+.ui.row > .ui.col6,
+.ui.row > .ui.col7,
+.ui.row > .ui.col8,
+.ui.row > .ui.col9,
+.ui.row > .ui.col10,
+.ui.row > .ui.col11,
+.ui.row > .ui.col12{
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-gap: 1.5rem;
+    justify-items: start;
+}
+
+.ui.row > .ui.col1{
+    grid-column: span 1 / auto;
+}
+
+.ui.row > .ui.col2{
+    grid-column: span 2 / auto;
+}
+
+.ui.row > .ui.col3{
+    grid-column: span 3 / auto;
+}
+
+.ui.row > .ui.col4{
+    grid-column: span 4 / auto;
+}
+
+.ui.row > .ui.col5{
+    grid-column: span 5 / auto;
+}
+
+.ui.row > .ui.col6{
+    grid-column: span 6 / auto;
+}
+
+.ui.row > .ui.col7{
+    grid-column: span 7 / auto;
+}
+
+.ui.row > .ui.col8{
+    grid-column: span 8 / auto;
+}
+
+.ui.row > .ui.col9{
+    grid-column: span 9 / auto;
+}
+
+.ui.row > .ui.col10{
+    grid-column: span 10 / auto;
+}
+
+.ui.row > .ui.col11{
+    grid-column: span 11 / auto;
+}
+
+.ui.row > .ui.col12{
+    grid-column: span 12 / auto;
+}
+
+.ui.grid{
+    display: grid;
+    grid-gap: inherit;
+}
+
+.ui.grid.col3{
+    grid-template-columns: repeat(3, 1fr);
+}

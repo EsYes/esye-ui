@@ -1,0 +1,19 @@
+/*
+ * Esye-UI
+ * color library.
+ */
+
+:root{
+    --white:#FFFFFF;
+    --black:#212121;
+
+    --blue:#2185D0;
+    --middleBlue:#1F7FC6;
+
+    --lightGray:#F2F3F5;
+
+    --gray:#E0E1E2;
+    --middleGray:#D5D6D7;
+
+    --darkGray:#5A5A5A;
+}
